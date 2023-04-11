@@ -75,3 +75,4 @@ $(document).ready(function() {
     $("#nimrodel_carousel").hide();
   });
 });
+

@@ -95,7 +95,7 @@ nav {
 
 /* 
 ********************************** STYLE FORMS  ******************************* */ 
-#form_1, #form_2 { 
+.form { 
     margin: auto;
     padding: 4%;
     margin-top: 4%;
@@ -103,12 +103,11 @@ nav {
     background-color: #303030;
     color: #ccc;
     align-content: center;
-    width: 700px;
-    opacity: 1;
-    display: block;
+    width: auto;
     height: auto;
     border-radius: 2%;
     text-align: center;
+    max-width: 600px;
 }
 
 /* 
@@ -253,10 +252,9 @@ nav {
     margin-top: 10%;   
 }
 
-@media (max-width:650px) {
-
-    #formpaginas{
-        display: none;
+@media (max-width: 600px) {
+    .form {
+      display: none;
     }
 
     .container {
