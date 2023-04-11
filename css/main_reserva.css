@@ -63,7 +63,7 @@ p {
 #menu_nav {
     padding-top: 100px;
     background-size: 600px;
-    background-image: url("/img/layout/fondo.jpg");
+    background-image: url("img/layout/fondo.jpg");
     background-repeat: repeat-x;
     /*Comentario: Asumiendo que la imagen del nav es de esta manera.*/
 }
@@ -94,7 +94,7 @@ p {
     margin-top: 300px;
     height: 1500px;
     background-size: cover;
-    background-image: url("/img/layout/fondo.jpg");
+    background-image: url("img/layout/fondo.jpg");
 }
 
 .img-fluid {
