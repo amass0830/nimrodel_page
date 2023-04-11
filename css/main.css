@@ -44,6 +44,12 @@ p {
     text-align: center;
     /* position: relative; */
 }
+
+nav {
+    position: relative;
+    z-index: 2;
+  } 
+  
 .menu_restaurante {
     color: #ffffff;
     padding-left: 0.5em;
@@ -53,13 +59,6 @@ p {
     float: left;
     overflow: hidden;
 }
-#menu_nav {
-    padding-top: 100px;
-    background-size: 600px; 
-    background-image: url("img/layout/fondo.jpg");
-    background-repeat: repeat-x;
-    /*Comentario: Asumiendo que la imagen del nav es de esta manera.*/
-} 
 
 .container {
     display: flex;
@@ -69,6 +68,28 @@ p {
 
 .card {
     margin: 20px;
+}
+
+.banner-up {
+    overflow: hidden;
+    position: relative;
+}
+  
+.banner {
+    display: block;
+    width: 100%; 
+    height: auto; 
+    max-height: 300px; 
+    object-fit: cover; 
+    object-position: top center; 
+    background-repeat: repeat-x;
+  }
+  
+#logo_mimrodel {
+    margin-top: 3rem;
+    position: absolute;
+    top: 20px;
+    z-index: 1;
 }
 
 
